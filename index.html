@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Joe's Coffee</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-50 text-gray-800 leading-relaxed">
+    <header class="bg-white shadow">
+      <div class="max-w-5xl mx-auto px-6 py-6 flex items-center justify-between">
+        <div class="flex items-center space-x-3">
+          <div class="w-12 h-12 bg-yellow-600 rounded-full flex items-center justify-center text-white font-bold text-xl">J</div>
+          <div>
+            <h1 class="text-2xl font-extrabold">Joe's Coffee</h1>
+            <p class="text-sm text-gray-500">Fresh roasts & cozy vibes</p>
+          </div>
+        </div>
+        <nav class="space-x-6 text-sm text-gray-600">
+          <a href="#menu" class="hover:text-gray-900">Menu</a>
+          <a href="#locations" class="hover:text-gray-900">Locations</a>
+          <a href="#contact" class="hover:text-gray-900">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="bg-[url('https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1650&q=80')] bg-cover bg-center">
+        <div class="backdrop-brightness-75">
+          <div class="max-w-5xl mx-auto px-6 py-28 text-white">
+            <h2 class="text-4xl md:text-6xl font-extrabold drop-shadow-lg">Welcome to Joe's Coffee</h2>
+            <p class="mt-4 text-lg md:text-2xl text-gray-100/90">Handcrafted espresso, locally roasted beans, and treats made with care.</p>
+            <div class="mt-8">
+              <a href="#menu" class="inline-block bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-semibold px-6 py-3 rounded-lg shadow">View Menu</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="menu" class="max-w-5xl mx-auto px-6 py-16">
+        <div class="flex items-center justify-between">
+          <h3 class="text-3xl font-bold">Menu</h3>
+          <p class="text-gray-600">All items available hot or iced</p>
+        </div>
+
+        <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
+          <article class="bg-white rounded-xl shadow p-6">
+            <h4 class="text-xl font-semibold">Classic Latte</h4>
+            <p class="text-sm text-gray-600 mt-2">Smooth espresso with steamed milk and a delicate layer of foam.</p>
+            <div class="mt-4 flex items-center justify-between">
+              <div class="text-lg font-bold">$3.50</div>
+              <button class="bg-yellow-500 hover:bg-yellow-600 text-gray-900 px-4 py-2 rounded-md font-medium">Order</button>
+            </div>
+          </article>
+
+          <article class="bg-white rounded-xl shadow p-6">
+            <h4 class="text-xl font-semibold">Cappuccino</h4>
+            <p class="text-sm text-gray-600 mt-2">Rich espresso topped with velvety steamed milk and foam.</p>
+            <div class="mt-4 flex items-center justify-between">
+              <div class="text-lg font-bold">$3.00</div>
+              <button class="bg-yellow-500 hover:bg-yellow-600 text-gray-900 px-4 py-2 rounded-md font-medium">Order</button>
+            </div>
+          </article>
+
+          <article class="bg-white rounded-xl shadow p-6">
+            <h4 class="text-xl font-semibold">Cold Brew</h4>
+            <p class="text-sm text-gray-600 mt-2">Slow-steeped for a smooth, bold flavor—served over ice.</p>
+            <div class="mt-4 flex items-center justify-between">
+              <div class="text-lg font-bold">$4.00</div>
+              <button class="bg-yellow-500 hover:bg-yellow-600 text-gray-900 px-4 py-2 rounded-md font-medium">Order</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="locations" class="bg-gray-50 border-t py-12">
+        <div class="max-w-5xl mx-auto px-6">
+          <h3 class="text-2xl font-bold">Locations</h3>
+          <p class="text-gray-600 mt-2">Visit our flagship store downtown or find us at local markets.</p>
+          <ul class="mt-4 space-y-2 text-gray-700">
+            <li>123 Bean Street, Coffee City</li>
+            <li>Market Square — Saturdays 9am–2pm</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="bg-white border-t mt-12">
+      <div class="max-w-5xl mx-auto px-6 py-8 md:flex md:items-center md:justify-between">
+        <div>
+          <h4 class="text-lg font-bold">Joe's Coffee</h4>
+          <p class="text-sm text-gray-600">Open daily 7am–6pm • (555) 123-4567</p>
+        </div>
+        <div class="mt-4 md:mt-0">
+          <p class="text-sm text-gray-600">Follow us</p>
+          <div class="flex space-x-3 mt-2">
+            <a href="#" class="text-gray-500 hover:text-gray-900">Instagram</a>
+            <a href="#" class="text-gray-500 hover:text-gray-900">Facebook</a>
+            <a href="#" class="text-gray-500 hover:text-gray-900">Twitter</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
